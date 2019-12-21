@@ -447,13 +447,12 @@ xclip
 }
 
 #clouds{
-	margin-top: -5%;
+	margin-top: -10%;
 	position: relative;
 	z-index: 1;
 }
 #clouds path {
     fill: #ffffff;
-    bottom: -10px;
     overflow: hidden;
     stroke: #ffffff;
 }
