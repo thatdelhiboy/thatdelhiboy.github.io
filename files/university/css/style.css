@@ -127,14 +127,14 @@ a:hover { text-decoration: underline; }
 
 .bg-0 { background-color: rgb(115, 100, 243)}
 .bg-1 { background-color: #f3f3f3 }
-.bg-2 { background-color: #555; }
+.bg-2 { background-color: #e0422d; }
 .bg-3 { background-color: #3d3d3d; }
-.bg-4 { background-color: #303030; }
+.bg-4 { background-color: #a55198; }
 .bg-5 { background-color: #c6acc2 }
 .bg-6 { background-color: #b973ae }
 .bg-7 { background-color: #a55198 }
 .bg-8 { background-color: #2e06b1 }
-.bg-9 { background-color: #140950 }
+.bg-9 { background-color: #1c0d74 }
 
 /* corners */
 
@@ -1246,7 +1246,7 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
 
 .text-block .text p
 {
-	font-weight: 500;
+	font-weight: 200;
 	margin-bottom: 10px;
 	font-size: 16px;
 }
@@ -1426,18 +1426,12 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
 
 
 
-
-
-
-
-
-
 .column-description
 {
 	line-height: 1.2;
 	font-size: 13px;
 	color: #aaa;
-	color: rgba(255,255,255,0.5);
+	color: rgba(255, 255, 255, 0.74);
 	text-transform: none;
 	min-height: 300px;
 }
@@ -1606,9 +1600,10 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
 .info-item p
 {
 	margin-bottom: 20px;
-
+	font-size: 16px;
 	opacity: 0.8;
 	filter: alpha(opacity=80);
+	color: white;
 }
 
 .info-item .more-link
