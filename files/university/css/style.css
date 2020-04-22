@@ -13,7 +13,7 @@
 html.js.desktop { overflow-y: hidden; }
 
 #containerm{
-	max-width: 100vw;
+	max-width: 80vw;
 	overflow-y: hidden;
 }
 /* list */
@@ -613,7 +613,7 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
 .header-item .line:first-child
 {
 	height: auto;
-	padding: 30px 30px 33px;
+	padding: 30px 30px 19px;
 }
 
 .site-logo
