@@ -182,7 +182,7 @@ a:hover { text-decoration: underline; }
 [class*=" bg-"] .bg-2.corner:before,
 [class^="bg-"] .bg-2.corner:before
 {
-	border-left-color: #555;
+	border-left-color: rgb(255, 0, 0);
 }
 
 .bg-3 .corner:before,
@@ -1043,7 +1043,8 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
     font-weight: bold;
     font-family: 'ProximaNova-Extrabold', sans-serif;
     text-shadow: 3px 4px 5px #2e06b1;
-    line-height: 46px;
+	line-height: 46px;
+
 }
 
 .content-slider .description .custom-btn { margin-top: 15px; }
