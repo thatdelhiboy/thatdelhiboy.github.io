@@ -45,7 +45,7 @@
   bottom: 10%;
   left: 10px;
   content: "";
-  background-image: url("/viralpitchp2.png");
+  background-image: url("./viralpitchp2.png");
   background-size: cover;
 }
 
@@ -65,7 +65,7 @@ border-radius: 5px;
   right: auto;
   bottom: 0;
   left: 5%;
-  background-image: url("/viralpitchp3.png");
+  background-image: url("./viralpitchp3.png");
   background-size: cover;
 }
 
@@ -148,32 +148,32 @@ a.button5:hover {
   }
 
   .product-incentive1{
-    background-image: url('/brand.png');
+    background-image: url('./brand.png');
     background-position: center;
     background-repeat: no-repeat;
   }
   .product-incentive2{
-    background-image: url('/Entrepreneurship.png');
+    background-image: url('./Entrepreneurship.png');
     background-position: center;
     background-repeat: no-repeat;
   }
   .product-incentive3{
-    background-image: url('/certificate.png');
+    background-image: url('./certificate.png');
     background-position: center;
     background-repeat: no-repeat;
   }
   .product-incentive4{
-    background-image: url('/resume.png');
+    background-image: url('./resume.png');
     background-position: center;
     background-repeat: no-repeat;
   }
   .product-incentive5{
-    background-image: url('/event-accepted.png');
+    background-image: url('./event-accepted.png');
     background-position: center;
     background-repeat: no-repeat;
   }
   .product-incentive6{
-    background-image: url('/networking.png');
+    background-image: url('./networking.png');
     background-position: center;
     background-repeat: no-repeat;
   }
