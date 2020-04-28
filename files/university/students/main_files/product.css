@@ -48,24 +48,36 @@
   background-image: url("../viralpitchp2.png");
   background-size: cover;
 }
-
-border-radius: 5px;
+.product-device-3 {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
 }
 
-.product-device-2 {
-  top: -25%;
-  right: auto;
-  bottom: 0;
-  left: 5%;
-  background-color: #e5e5e5;
+.product-device-3::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-image: url("../viralpitchp3.png");
+  background-size: cover;
 }
+
+
 
 .product-device-3 {
   top: -25%;
   right: auto;
   bottom: 0;
   left: 5%;
-  background-image: url("../viralpitchp3.png");
   background-size: cover;
 }
 
